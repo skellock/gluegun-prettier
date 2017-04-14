@@ -1,0 +1,36 @@
+{
+  "name": "gluegun-prettier",
+  "version": "0.0.8",
+  "description": "A prettier plugin for gluegun.",
+  "files": [
+    "extensions",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "ava",
+    "lint": "standard --fix",
+    "coverage": "nyc ava",
+    "shipit": "np"
+  },
+  "keywords": [
+    "prettier",
+    "gluegun"
+  ],
+  "author": "Steve Kellock <steve@kellock.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-eslint": "^7.2.2",
+    "gluegun": "^0.17.1",
+    "np": "^2.13.1",
+    "nyc": "^10.2.0",
+    "sinon": "^2.1.0",
+    "standard": "^10.0.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
