@@ -21,6 +21,9 @@
   "dependencies": {
     "prettier": "^1.1.0"
   },
+  "repository": {
+    "url": "https://github.com/skellock/gluegun-prettier"
+  },
   "devDependencies": {
     "ava": "^0.19.1",
     "babel-eslint": "^7.2.2",
